@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">simple-tracking-location</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="image">image</string>
+    <string name="welcome_to_app">Get ready to Login</string>
+    <string name="welcome_to_app2">Get ready to Sign Up</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="invalid_email">Please enter valid email</string>
+    <string name="invalid_password">Please enter min 6 digit</string>
+    <string name="invalid_name">Name must not empty</string>
+    <string name="go_to_login_page">Go to Login page</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logout">Logout</string>
+
+</resources>

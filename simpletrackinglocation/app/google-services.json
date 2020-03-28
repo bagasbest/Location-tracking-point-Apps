@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "148028752570",
+    "firebase_url": "https://simple-tracking-location.firebaseio.com",
+    "project_id": "simple-tracking-location",
+    "storage_bucket": "simple-tracking-location.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148028752570:android:e76d77cdfee04b63317883",
+        "android_client_info": {
+          "package_name": "com.simple_tracking_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148028752570-4216o887ntsosb9lkh38kmh2aqq6fja0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEq6UoF0JkRSHAzLjIxGTNxC-Yz1LDLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148028752570-4216o887ntsosb9lkh38kmh2aqq6fja0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

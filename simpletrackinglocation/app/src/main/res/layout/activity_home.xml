@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginEnd="32dp"
+    android:layout_marginStart="32dp">
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/btnStyle"
+        android:text="@string/logout"/>
+
+</LinearLayout>
