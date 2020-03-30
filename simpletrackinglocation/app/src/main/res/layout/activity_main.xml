@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        style="@style/simpleView"
+        android:text="@string/welcome_to_app"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/EtStyle"
+        android:hint="@string/email"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:autofillHints="no"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/EtStyle"
+            android:hint="@string/password"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:autofillHints="no"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/simpleView"
+        android:text="@string/reset_password"
+        android:textSize="15sp"
+        android:onClick="forgotPassword"
+        android:layout_gravity="right"
+        tools:ignore="OnClick,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/btnStyle2"
+        android:text="@string/login"/>
+
+    <TextView
+        style="@style/border"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_signup"
+        style="@style/simpleView"
+        android:text="@string/sign_up"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

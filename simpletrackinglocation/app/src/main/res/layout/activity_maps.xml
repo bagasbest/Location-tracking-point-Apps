@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    android:orientation="vertical">
+
+<!--    <EditText-->
+<!--        android:id="@+id/et_your_location"-->
+<!--        style="@style/EtStyle"-->
+<!--        android:hint="@string/your_location_now"-->
+<!--        android:autofillHints="no"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:inputType="text"-->
+<!--        tools:ignore="TextFields" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/et_your_destination"-->
+<!--        style="@style/EtStyle"-->
+<!--        android:hint="@string/search_your_destination"-->
+<!--        android:autofillHints="no"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:inputType="text"-->
+<!--        tools:ignore="TextFields" />-->
+
+    <SearchView
+        android:id="@+id/sv_search_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="5dp"
+        android:background="@drawable/rounded_et"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_distance"
+            android:contentDescription="@string/image" />
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/_0_km" />
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_clock"
+            android:contentDescription="@string/image" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/_0_min"/>
+
+
+        <Button
+            android:id="@+id/btn_findlocation"
+            style="@style/btnStyle"
+            android:text="@string/find_location"
+            android:layout_marginStart="38dp"
+            />
+
+            </LinearLayout>
+
+    <fragment
+        android:id="@+id/google_maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="7dp"/>
+
+
+
+
+        </LinearLayout>
+

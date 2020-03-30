@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">simple-tracking-location</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="image">image</string>
+    <string name="welcome_to_app">Get ready to Login</string>
+    <string name="welcome_to_app2">Get ready to Sign Up</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="invalid_email">Please enter valid email</string>
+    <string name="invalid_password">Please enter min 6 digit</string>
+    <string name="invalid_name">Name must not empty</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logout">Logout</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="search_your_destination">Search your destination</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Service nit available</string>
+    <string name="invalid_lat_long_used">Invalid latitude and Longtitude</string>
+    <string name="address_found">Address found</string>
+    <string name="_0_km">0 Km</string>
+    <string name="_0_min">0 min</string>
+    <string name="your_location_now">Your location now</string>
+    <string name="find_location">Find location</string>
+    <string name="get_ready_for_forgot_password">Get Ready for forgot password</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="move_to_login_page">Move to login page</string>
+    <string name="back_to_login_page">Back to login page</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="permission_rationale">permission rationalable</string>
+    <string name="no_geocoder_available">no gocoder available</string>
+    <string name="no">No location detected</string>
+
+
+</resources>
